@@ -1,1 +1,19 @@
-# Project-
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>local storage</title>
+</head>
+<body>
+  <h2>Form</h2>
+  <form id ="form">
+  	<input id ="name" type="text" placeholder="name"required > <input id="email"type="email" placeholder="enter email"required>
+  	<button id ="button"type="submit">submit</button>
+   <div id="output"> </div>
+ <button id="delete" type="reset">delete</button>
+  </form>
+   <script src="project.js"></script>
+</body>
+</html>
