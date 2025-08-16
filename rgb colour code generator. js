@@ -1,0 +1,33 @@
+const colorbox = document.getElementById('colorbox');
+const colorcode = document.getElementById('colorcode');
+const newcolorbtn = document.getElementById('newcolorbtn');
+const copybtn = document.getElementById('copybtn');
+
+const colorgenerator = ()=>{
+  const r = Math.floor(Math.random()*255);
+  const g = Math.floor(Math.random()*255);
+  const b = Math.floor(Math.random()*255);
+  return `rgb(${r},${g},${b})`;
+}
+ 
+updatecolor=()=>{
+const newcolor=colorgenerator();
+colorcode.innerText=newcolor;
+colorbox.style.backgroundColor=newcolor}
+//copying the color code by creating an input and giving the inner text of colorcode to input and then copying it through command
+const copycode=()=>{
+  const inpt = document.createElement('input');
+  document.body.appendChild(inpt);
+  inpt.value=colorcode.innerText;
+  inpt.select();
+  document.execCommand('copy');
+  document.body.removeChild(inpt)
+}
+
+newcolorbtn.addEventListener('click',()=>{
+  updatecolor()
+})
+copybtn.addEventListener('click',()=>{
+  copycode();
+  alert('copied to clipboard 📋!!!');
+})
