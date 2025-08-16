@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,
 initial-scale=1">
-	<title>rgb color generator</title>	<linkrel="stylesheet"href="project.css">	
+	<title>rgb color generator</title>
+	<linkrel="stylesheet"href="project.css">	
 	</head>
 	<body>
-	  	<h1>RGB Color Generator</h1>
-	  	<div id="colorbox"></div>
-	  	<p id="colorcode"></p>
-	  	<button id="newcolorbtn"> Generate newcolor</button> <br>
-	  	<button id="copybtn">Copy Color Code</button>
+	 	<h1>RGB Color Generator</h1>
+	  <div id="colorbox"></div>
+	  <p id="colorcode"></p>
+	  <button id="newcolorbtn"> Generate newcolor</button> <br>
+	  <button id="copybtn">Copy Color Code</button>
 	 <script type="text/javascript"src="project.js"></script>
 </body>
 </html>
