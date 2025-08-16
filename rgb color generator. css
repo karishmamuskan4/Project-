@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  
+}
+#colorbox{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10px;
+}
+#copybtn{
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+#copybtn:hover{
+  background-color:lawngreen ;
+  color: green;
+}
+#newcolorbtn{
+  background: pink;
+  color: purple;
+  padding: 5px;
+  border:2px solid purple;
+  border-radius:5px;
+  margin: 10px auto;
+}
+#colorcode{
+  margin-top: 10px;
+}
